@@ -1,0 +1,421 @@
+html{
+    
+    font-size: 10px;
+    font-family: arial;
+}
+
+body {
+    
+    max-width: 1920px;
+    margin:0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 9em;
+    font-weight: 800;
+    color: #2f2f2f;
+}
+
+/*Header NAV menu */
+
+header { 
+    width: 100%;
+    background-image: url(images/about_me.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.content_wraper { 
+    position: relative;
+    max-width: 1000px;
+    min-height: 350px;
+    margin:0 auto;
+}
+
+
+.aboutme {
+    position: relative;
+    top:110px;
+    font-size: 12em;
+    color: #FFF;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+     
+
+header nav {
+    position: absolute;
+    bottom:0px;
+} 
+    
+
+header nav a:link {color:#FFF}      /* unvisited link */
+header nav a:visited {color:#FFF; border-bottom: 10px solid #FFF; }  /* visited link */
+header nav a:hover {color:#fe940b; }  /* mouse over link */
+header nav a:active {color:#cc7708; } /* selected link */
+
+
+header nav a {
+    
+    font-size:2.2em;
+    letter-spacing: 0.075em;
+    text-transform:uppercase;	
+    text-decoration:none;
+    display:inline-block; 
+    padding: 12px 0;
+    margin-right: 66px;
+    margin-left: 0;
+}
+
+nav a:last-child {
+    
+    margin-right:0;
+}
+    
+    
+    
+.content_center { 
+    
+    max-width: 1000px;
+    margin:0 auto;
+}    
+
+/*Fixie part */
+
+.fixie_content {
+    
+    margin:220px 0;
+    background-image: url("images/fixie1.jpg");
+    height: 328px;
+    background-size: 535px 328px;
+    background-repeat: no-repeat;
+    background-position:0% 0%; 
+}
+
+.fixie_header {
+    position: relative;
+    color:#fe940b;
+    margin-left: 50%;
+    text-align: right;
+    line-height: 62px;
+}
+
+.dek {
+    position:absolute;
+    color:#2f2f2f;
+    top:60px;
+    right:0;
+    font-size: 20px;
+    text-transform: uppercase;
+    Font-weight: 400;
+}
+
+.fixie_content2 {
+    position: relative;
+    height: 200px;
+    margin-bottom: 220px;
+    
+}
+
+.fixie_header2 {
+
+    text-align: left;
+    line-height: 62px;
+}
+.dek2 {
+    position:absolute;
+    top:100px;
+    left:0;
+}
+
+.fixie_text { 
+
+    position: relative;
+    top:-65px;
+    margin-left: 50%;
+    width:50%;
+    font-size: 1.6em;
+    line-height: 22px;
+}
+    
+/*Climbing part*/
+
+.climbing_wide {
+    
+    background-image: url(images/climbing.jpg);
+    width: 100%;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+
+
+.climbing_wide article {
+    
+    position: relative;
+    height: 450px;
+    width: 1000px; 
+    margin:0 auto;
+    
+}
+
+
+.pic_text1 {
+    position: absolute;
+    top:200px;
+    right: 0;
+    font-size: 3em;
+    font-weight: 800;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+
+
+.pic_text2 {
+    
+    position: absolute;
+    top:260px;
+    right: 0;
+    font-size: 3em;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-transform: lowercase;
+}
+
+.climbing_content {
+    
+    position: relative;
+    height: 335px;
+    margin:220px 0;
+    background-image: url("images/climbing1.jpg");
+    background-size: 538px 335px;
+    background-repeat: no-repeat;
+    background-position:top right; 
+    
+}
+
+.whydoyou {
+    
+    position: absolute;
+    top:0;
+    left: 5px;
+    font-size: 3em;
+
+
+}
+
+.climb90 {
+    
+    position: absolute;
+    top:30px;
+    left: 0;
+    font-family: arial;
+    font-size: 9em;
+    font-weight: 800;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+    
+.clim_text {
+    
+    position:absolute;
+    top:200px;
+    left:0;
+    width:50%;
+    font-size: 1.6em;
+    font-weight: 400;
+    line-height: 22px;
+
+}    
+    
+/* Penny board part */
+
+.penny_content {
+
+    position: relative;
+    height: 535px;
+    background-image: url("images/penny.jpg");
+    background-size: 350px 535px;
+    background-repeat: no-repeat;
+    background-position:0% 0%; 
+    margin-bottom: 220px;
+    
+}
+
+.penny_content article {
+    
+    margin-left: 50%;
+    font-weight: 400;
+}
+
+
+.penny_text {
+    
+    font-size: 1.6em;
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+/*Breaking Part */
+
+.breaking_frame {
+    
+    background-color: #434343;
+    padding-bottom: 40px;
+}
+
+.breaking_header1 {
+    
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.breaking_content {
+    
+    font-family: arial;
+    font-weight: 400;
+    background-image: url("images/bboy.jpg");
+    background-size: 537px 333px;
+    background-repeat: no-repeat;
+    background-position:top right;
+    margin: 220px 0;
+}
+
+.breaking_text {
+    
+    font-size: 1.6em;
+    margin-top: 50px;
+    line-height: 22px;
+    width:50%;
+}
+
+.breaking_header2 {
+    
+    font-size: 8em;
+}
+
+
+
+/*Contacts part*/
+
+.contact_frame {
+    
+    background-color: #434343;
+    height: 335px;
+}
+
+.contact_content {
+    
+    position:relative;
+    padding-top: 50px;
+    
+}
+
+#igocooper { 
+    
+    position: absolute;
+    bottom:5px;
+    left:0;
+    font-family: arial;
+    font-weight: 800;
+    font-size: 0.3em;
+    color: #FFF;
+}
+
+.contacts {
+    
+    position:relative;
+    text-align: right;
+    color:#FFF;
+}
+
+.igocooperimg {
+    
+    position: absolute;
+    top:-81px;
+}
+
+#email {
+    
+    background-color: #5f5f5f;
+    color: #2f2f2f;
+    font-size: 24px;
+    width: 385px;
+    height: 40px;
+    border: none;
+    padding-left: 10px;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
+}
+
+#email:focus {
+    
+    width: 408px;
+    outline: none;
+}
+    
+#submit {
+    
+    height: 42px;
+    width: 64px;
+    border:none;
+    padding:1px;
+    position: relative;
+    top:11px;
+    left:5px;
+    background:url("images/ico.png"),#fe940b; 
+    background-size: 27px 24px;
+    background-repeat: no-repeat;
+    background-position: 22px 9px;
+    outline: none;
+}    
+
+#invisible_subscribe {
+    visibility: hidden;
+}
+
+form {
+    
+     margin-top: 65px;
+     margin-bottom: 22px;
+}
+
+.contact_content {
+    
+    position: relative;
+    color: #2f2f2f;
+}
+
+.contact_content p {
+    
+    font-size: 1.6em;
+}
+    
+.ico_wraper {
+    
+    position: absolute;
+    bottom: 45px;
+    right: 5px;
+}    
+
+.ico { 
+    
+    margin-left: 30px;
+}
+
+.copyright_wraper {
+    
+    height: 57px;
+    background-color: #2f2f2f;
+}
+
+.copyright_text {
+    
+    color: #434343;
+    font-size: 1.4em;
+    text-align: left;
+    line-height: 57px;
+}

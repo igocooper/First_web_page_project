@@ -1,0 +1,412 @@
+html{
+    
+    font-size: 10px;
+    font-family: arial;
+}
+
+body {
+    
+    max-width: 480px;
+    margin:0 auto;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 5em;
+    font-weight: 800;
+    color: #2f2f2f;
+}
+
+/*Header NAV menu */
+
+header { 
+    background-image: url(images/about_me_480.jpg);
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+.content_wraper { 
+    position: relative;
+    max-width: 448px;
+    height:178px;
+    margin:0 auto;
+}
+
+
+.aboutme {
+    position: relative;
+    top:75px;
+    font-size: 6em;
+    color: #FFF;
+    letter-spacing: 0.1em;
+    text-align: left;
+}
+     
+
+header nav {
+    position: absolute;
+    bottom:0px;
+} 
+
+#header_nav {
+    visibility:hidden;
+}
+    
+
+header nav a:link {color:#FFF}      /* unvisited link */
+header nav a:visited {color:#FFF; border-bottom: 10px solid #FFF; }  /* visited link */
+header nav a:hover {color:#fe940b; }  /* mouse over link */
+header nav a:active {color:#cc7708; } /* selected link */
+
+
+header nav a {
+    
+    font-size:1.6em;
+    letter-spacing: 0.075em;
+    text-transform:uppercase;	
+    text-decoration:none;
+    display:inline-block; 
+    padding: 6px 0;
+    margin-right: 5px;
+    margin-left: 0;
+}
+
+nav a:last-child {
+    
+    margin-right:0;
+}
+    
+    
+    
+.content_center { 
+    
+    max-width: 448px;
+    margin:0 auto;
+    
+}    
+
+/*Fixie part */
+
+.fixie_content {
+    
+    margin:55px 0;
+    background-image: url("images/fixie1_448.jpg");
+    height: 374px;
+    background-size: 448px 274px;
+    background-repeat: no-repeat;
+    background-position:0% 100px; 
+}
+
+.fixie_header {
+    position: relative;
+    color:#fe940b;
+    text-align: left;
+    line-height: 60px;
+}
+
+.dek {
+    position:absolute;
+    color:#2f2f2f;
+    top:30px;
+    left:0;
+    font-size: 20px;
+    text-transform: uppercase;
+    Font-weight: 400;
+}
+
+.fixie_content2 {
+    position: relative;
+    margin-bottom: 55px;
+    
+}
+
+.fixie_header2 {
+
+    text-align: left;
+    line-height: 62px;
+}
+
+
+.fixie_text { 
+
+    position: relative;
+    margin-top: 22px;
+    font-size: 1.3em;
+    line-height: 22px;
+}
+    
+/*Climbing part*/
+
+.climbing_wide {
+    
+    background-image: url(images/climbing_480.jpg);
+    width: 100%;
+   
+    overflow: hidden;
+    background-repeat: no-repeat;
+    
+}
+
+
+.climbing_wide article {
+    position: relative;
+    margin:0 auto;
+    height: 221px;
+}
+
+
+.pic_text1 {
+    position:relative;
+    top:30%;
+    left:35%;
+    font-size: 1.33em;
+    font-weight: 800;
+    color: #2f2f2f;
+    text-transform: uppercase;
+
+}
+
+
+.pic_text2 {
+    position:relative;
+    left:35%;
+    top:32%;
+    font-size: 1.3em;
+    font-weight: 400;
+    color: #2f2f2f;
+    text-transform: lowercase;
+   
+}
+
+.climbing_content {
+    
+
+    height: 220px;
+    margin:55px 0;
+ 
+    
+}
+
+.whydoyou {
+
+    font-size: 1.6em;
+
+
+}
+
+.climb90 {
+    
+    left: 0;
+    font-family: arial;
+    font-size: 5em;
+    font-weight: 800;
+    color: #2f2f2f;
+    text-transform: uppercase;
+}
+    
+.clim_text {
+    position: relative;
+    top: 22px;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 22px;
+
+}    
+    
+/* Penny board part */
+
+.penny_content {
+
+    position: relative;
+    background-image: url("images/penny_448.jpg");
+    background-size: 448px 448px;
+    background-repeat: no-repeat;
+    background-position:0% 290px; 
+    margin-bottom: 55px;
+    height: 748px;
+    
+}
+
+.penny_content article {
+    
+    font-weight: 400;
+}
+
+
+.penny_text {
+    
+    font-size: 1.3em;
+    margin-top: 50px;
+    line-height: 22px;
+}
+
+/*Breaking Part */
+
+.breaking_frame {
+    
+    background-color: #434343;
+    padding-bottom: 40px;
+    display: none;
+}
+
+.breaking_header1 {
+    
+    color: #FFF;
+    padding-top: 50px;
+    padding-bottom: 25px;
+}
+
+
+.breaking_content {
+    
+    font-weight: 400;
+    height: 650px;
+    background-image: url("images/bboy_448.jpg");
+    background-size: 448px 332px;
+    background-repeat: no-repeat;
+    background-position:0 322px;
+    margin: 55px 0;
+
+}
+
+.breaking_text {
+    margin-top: 22px;
+    font-size: 1.3em;
+    line-height: 22px;
+}
+
+.breaking_header2 {
+    
+    font-size: 5em;
+}
+
+
+
+/*Contacts part*/
+
+.contact_frame {
+    margin-top: 130px;
+    background-color: #434343;
+    height: 435px;
+}
+
+.contact_content {
+    
+    position:relative;
+    padding-top: 200px;
+    
+}
+
+#igocooper { 
+    position: absolute;
+    top:-100px;
+    left:23%;
+    font-family: arial;
+    font-weight: 800;
+    font-size: 0.3em;
+    color: #FFF;
+}
+
+.contacts {
+    
+    position:relative;
+    left:17%;
+    color:#FFF;
+}
+
+#invisible {
+    visibility:hidden;
+}
+
+.igocooperimg {
+    position: absolute;
+    right:31%;
+    top:-87px;
+    
+    
+}
+
+#email {
+    position: relative;
+    bottom:10px;
+    right:-15%;
+    background-color: #5f5f5f;
+    color: #2f2f2f;
+    border-radius:10px;
+    font-size: 24px;
+    width:  290px;
+    height: 40px;
+    border: none;
+    margin: 0 auto;
+    padding-left: 20px;
+    outline: none;
+
+}
+
+#email:focus {
+    
+    width: 408px;
+    
+}
+    
+#submit {
+    
+    height: 62px;
+    width: 310px;
+    border:none;
+    padding:1px;
+    border-radius:15px;
+    position: relative;
+    top:10px;
+    left:15%;
+    background:#fe940b; 
+    background-size: 27px 24px;
+    outline: none;
+    color:#2f2f2f;
+    font-family: arial;
+    font-size:3em;
+    font-weight:800;
+}    
+
+form {
+    
+     margin-bottom: 22px;
+}
+
+.contact_content {
+    
+    position: relative;
+    color: #2f2f2f;
+}
+
+.contact_content p {
+    margin-top:42px;
+    font-size: 1.3em;
+    text-align:center;
+}
+    
+.ico_wraper {
+    
+    position: absolute;
+    top:150px; 
+    left:27%;
+}    
+
+.ico { 
+    
+    margin-left: 30px;
+}
+
+.copyright_wraper {
+    
+    height: 57px;
+    background-color: #2f2f2f;
+}
+
+.copyright_text {
+    
+    color: #434343;
+    font-size: 1.4em;
+    text-align: left;
+    line-height: 57px;
+}
