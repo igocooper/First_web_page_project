@@ -86,15 +86,30 @@ nav a:last-child {
 }    
 
 /*Fixie part */
+/*Carousell*/
+
+#carousel-example-generic {
+    width: 448px;
+    margin-top:172px;
+}
+
+.item img {
+    margin: 0 auto;
+    height: 200px;
+    width: 535px;
+}
+
+.carousel-indicators {
+    bottom: 0;
+}
+
+/*Carousell ends*/
+
 
 .fixie_content {
     
-    margin:55px 0;
-    background-image: url("images/fixie1_448.jpg");
     height: 374px;
     background-size: 448px 274px;
-    background-repeat: no-repeat;
-    background-position:0% 100px; 
 }
 
 .fixie_header {
@@ -102,6 +117,7 @@ nav a:last-child {
     color:#fe940b;
     text-align: left;
     line-height: 60px;
+    top:-372px;
 }
 
 .dek {
