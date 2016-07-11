@@ -52,7 +52,7 @@ header nav {
 
 header nav a:link {color:#FFF}      /* unvisited link */
 header nav a:visited {color:#FFF; border-bottom: 10px solid #FFF; }  /* visited link */
-header nav a:hover {color:#fe940b; }  /* mouse over link */
+header nav a:hover {color:#fe940b;text-decoration: none; }  /* mouse over link */
 header nav a:active {color:#cc7708; } /* selected link */
 
 
@@ -391,6 +391,15 @@ nav a:last-child {
     background-position: 22px 9px;
     outline: none;
 }    
+
+#btn_send:active {
+    transform: translateX(4px);
+    box-shadow: 3px 3px 5px #000;
+}
+
+#btn_send:hover {
+    background-color:#cc7708; 
+}
 
 #invisible_subscribe {
     display: none;
