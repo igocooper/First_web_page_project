@@ -5,7 +5,7 @@ $('#btn_send').click(function(e){
         url: 'https://formspree.io/igocooper@gmail.com',
         method: 'POST',
         data: { email: $('#email').val()},
-        data_type: 'json'
+        dataType: 'json'
     }).done(function(){
         alert('Thanks');
     });
